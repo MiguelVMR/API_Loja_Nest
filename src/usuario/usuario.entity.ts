@@ -21,6 +21,9 @@ export class UsuarioEntity {
   @Column({ name: 'senha', length: 255, nullable: false })
   senha: string;
 
+  @Column({ name: 'endereco', length: 255, nullable: false})
+  endereco: string;
+
   @CreateDateColumn({ name: 'created_at' })
   createdAt: string;
 
